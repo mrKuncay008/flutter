@@ -18,7 +18,7 @@ class TestApi {
   // Method untuk membuat instance dari JSON
   factory TestApi.fromJson(Map<String, dynamic> json) {
     return TestApi(
-      id: json['id'] ?? 0,
+      id: json['id'] ?? '',
       title: json['title'] ?? '',
       tags: json['tags'] ?? '',
       topics: json['topics'] ?? '',
